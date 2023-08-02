@@ -200,4 +200,14 @@
   .cardinforight p {
     max-width: 130px;
   }
+
+  textarea {
+    display: block;
+    max-width: 212px;
+    min-height: 100px;
+    margin-bottom: 15px;
+    resize: none;
+    border: 0;
+    box-shadow: 8px 8px 0px var(--bg-dark);
+  }
 }
