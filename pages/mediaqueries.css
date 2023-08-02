@@ -173,32 +173,32 @@
   }
 
   .bandcard {
-    width: 290px;
-    height: 467px;
+    width: 250px;
+    height: 400px;
   }
 
   .bandcard img {
-    width: 270px;
+    width: 230px;
   }
 
   .cardinfo {
-    width: 270px;
+    width: 230px;
   }
 
   .cardinfoleft {
-    width: 130px;
+    width: 110px;
   }
 
   .cardinfoleft h3 {
-    max-width: 130px;
+    max-width: 110px;
   }
 
   .cardinforight {
-    width: 130px;
+    width: 110px;
   }
 
   .cardinforight p {
-    max-width: 130px;
+    max-width: 110px;
   }
 
   textarea {
