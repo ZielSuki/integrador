@@ -1,0 +1,24 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.73313 86.40576">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: orange;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #0a1612;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <title>logo2</title>
+  <g>
+    <path class="cls-1" d="M85.155,101.59292,53.83954,58.48267H82.027L98.22626,82.80933m14.05078,17.376,30.293,41.70313H114.42548L98.22626,117.49976" transform="translate(-50.89595 -56.98267)"/>
+    <path class="cls-2" d="M115.4,59.87h27.17L115.64,94.64,99.73,116.96,84.11,140.58H56.9l29.25-40.36L99.74,82.1Z" transform="translate(-50.89595 -56.98267)"/>
+  </g>
+</svg>

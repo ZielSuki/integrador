@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registerstyle.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="register">
+      <form>
+        <fieldset class="registerinfo">
+          <legend>Register</legend>
+          <label for="name">Name:</label>
+          <input type="text" name="Name" id="name" required />
+          <label for="pronouns">Pronouns:</label>
+          <input
+            type="text"
+            name="Pronouns"
+            id="pronouns"
+            placeholder="She/He/They"
+            required
+          />
+          <label for="email">Email:</label>
+          <input type="email" name="Email" id="email" required />
+          <label for="password">Password:</label>
+          <input type="password" name="Password" id="password" required />
+          <label for="reppassword">Repeat Password:</label>
+          <input type="password" name="RepPassword" id="reppassword" required />
+          <div>
+            <img src="/img/logo1.svg" alt="logo" />
+            <button>Submit!</button>
+          </div>
+        </fieldset>
+      </form>
+    </section>
+  </body>
+</html>
