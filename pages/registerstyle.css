@@ -39,6 +39,7 @@ body {
 
 #register {
   background-color: var(--primary);
+  margin: 25px;
   max-width: 400px;
   width: 100%;
   border-radius: 10px;

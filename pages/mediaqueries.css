@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
-@font-face {
-  font-family: "akira";
-  src: url(/fonts/Akira\ Expanded\ Demo.otf);
-}
-
 :root {
   --bg-dark: #0a1612;
   --primary: #1a2930;
@@ -45,9 +38,9 @@
 }
 
 @media (max-width: 630px) {
-  /*Cambiar h1, hacer menu desplegable, contact para celulares*/
+  /*hacer menu desplegable*/
 
-  /*Hero Nuevo*/
+  /*Hero v2*/
   h1 {
     color: var(--secondary);
     font-family: "akira";
@@ -146,7 +139,7 @@
 }
 
 @media (max-width: 400px) {
-  /*Hero v2*/
+  /*Hero v3*/
   h1 {
     color: var(--bg-dark);
     font-size: 25px;
@@ -209,5 +202,9 @@
     resize: none;
     border: 0;
     box-shadow: 8px 8px 0px var(--bg-dark);
+  }
+
+  footer img {
+    order: -1;
   }
 }

@@ -1,0 +1,39 @@
+:root {
+  --bg-dark: #0a1612;
+  --primary: #1a2930;
+  --secondary: #ffa500;
+  --bg-light: #f5f5f5;
+
+  /* Textos */
+  --text-light: #f5f5f5;
+  --text-dark: #0a1612;
+}
+
+@media (max-width: 768px) {
+  button:hover {
+    transition: none;
+    transform: none;
+  }
+  button:active {
+    transform: scale(0.9);
+    transition: 0s;
+  }
+}
+
+@media (max-width: 425px) {
+  input {
+    max-width: 150px;
+    width: 100%;
+  }
+
+  button {
+    padding: 3px;
+    background-color: var(--secondary);
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--bg-dark);
+    border: solid 2px var(--bg-dark);
+    border-radius: 7px;
+    transition: 0.3s;
+  }
+}
