@@ -61,6 +61,15 @@ header {
   align-items: center;
 }
 
+#toggle-menu {
+  display: none;
+}
+
+.menu-icon i {
+  font-size: 36px;
+  display: none;
+}
+
 nav {
   max-width: 1200px;
   width: 100%;

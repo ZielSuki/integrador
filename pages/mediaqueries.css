@@ -40,6 +40,37 @@
 @media (max-width: 630px) {
   /*hacer menu desplegable*/
 
+  .navlinks {
+    background-color: var(--primary);
+    width: 50%;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border: solid 3px var(--secondary);
+    border-top: none;
+    border-right: none;
+    position: absolute;
+    top: 65px;
+    right: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: none;
+    z-index: 1;
+  }
+
+  .navlinks a {
+    font-size: 20px;
+    color: var(--text-light);
+  }
+
+  .menu-icon i {
+    display: block;
+  }
+
+  #toggle-menu:checked + .navlinks {
+    display: flex;
+  }
+
   /*Hero v2*/
   h1 {
     color: var(--secondary);
